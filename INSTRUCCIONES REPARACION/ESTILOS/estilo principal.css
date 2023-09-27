@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(230, 230, 230);
+
+}
+
+#encabezado {
+  text-align: right;
+  font-family: 'Handjet', cursive;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 1%;
+  margin-right: 1%;
+  font-size: .8rem;
+}
+
+nav {
+  background-color: rgb(230, 230, 230);
+  display: inline-block;
+  position: relative;
+
+  position: sticky;
+  top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 4px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+main {
+  display: inline-block;
+
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  width: 100%;
+  height: 900px;
+}
+
+h1 {
+
+  color: rgb(72, 79, 128);
+  text-align: center;
+  font-family: 'Handjet', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+
+}
+
+#pagina {
+  display: inline-block;
+  box-sizing: border-box;
+  color: chartreuse;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  left: 92%;
+
+}
+
+#errores {
+  display: inline-block;
+  box-sizing: border-box;
+  color: chartreuse;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  right: 6%;
+
+
+}
+
+#logotop{
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50px;
+  height: 20px;
+  padding: 2px;
+}
+
+section {
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 95%;
+  height: 53%vh;
+
+
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
